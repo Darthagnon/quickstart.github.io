@@ -1,0 +1,24 @@
+---
+label: Texty blog post
+hide_body: false
+display_field: tags
+fields:
+- type: textarea
+  name: main_article
+  label: Main Article
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: tag_list
+  name: tags
+  label: Tags
+  description: What categories does this article fit into?
+- type: file
+  name: single_image
+  label: Single Image
+  description: Single hero image here
+- type: image_gallery
+  name: multi_image_gallery
+  label: Multi Image Gallery
+  description: Add project gallery images here
