@@ -21,3 +21,5 @@ fields:
   name: multi_image_gallery
   label: Multi Image Gallery
   description: Add project gallery images here
+pages:
+- content/posts/postix.md
