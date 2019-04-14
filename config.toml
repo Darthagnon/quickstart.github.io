@@ -1,0 +1,124 @@
+baseURL = "darthagnon.github.io"
+baseurl = "http://Darthagnon.github.io"
+canonifyurls = true
+defaultcontentlanguage = "en"
+disqusShortname = "Darthagnon"
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = ""
+languagecode = "en"
+paginate = 20.0
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsstyle = "b2"
+theme = "coder"
+title = "quickstart"
+
+[languages]
+
+  [languages.en]
+  languagename = "English"
+
+    [languages.en.menu]
+
+      [[languages.en.menu.main]]
+      name = "About"
+      url = "/about/"
+      weight = 1.0
+
+      [[languages.en.menu.main]]
+      name = "Blog"
+      url = "/posts/"
+      weight = 2.0
+
+      [[languages.en.menu.main]]
+      name = "Projects"
+      url = "/projects/"
+      weight = 3.0
+
+      [[languages.en.menu.main]]
+      name = "Contact me"
+      url = "/contact/"
+      weight = 5.0
+
+  [languages.pt-br]
+  languagename = "Português"
+  title = "João Ninguém"
+
+    [languages.pt-br.menu]
+
+      [[languages.pt-br.menu.main]]
+      name = "Sobre"
+      url = "/pt-br/about/"
+      weight = 1.0
+
+      [[languages.pt-br.menu.main]]
+      name = "Blog"
+      url = "/pt-br/posts/"
+      weight = 2.0
+
+      [[languages.pt-br.menu.main]]
+      name = "Projetos"
+      url = "/pt-br/projects/"
+      weight = 3.0
+
+      [[languages.pt-br.menu.main]]
+      name = "Contato"
+      url = "/pt-br/contact/"
+      weight = 5.0
+
+    [languages.pt-br.params]
+    author = "João Ninguém"
+    description = "Sítio pessoal de João Ninguém"
+    footercontent = "Coloque algum texto aqui."
+    info = "Full Stack DevOps e Mágico"
+    keywords = "blog,desenvolvedor,pessoal"
+
+[params]
+author = "Darren John Edwards de Lima"
+avatarurl = "images/avatar.jpg"
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+custom_css = []
+dateformat = "2 Jan 2006"
+description = "Quickstart test site, made with Hugo"
+footercontent = "SNAAAAAAKE"
+hideCopyright = false
+hideCredits = false
+info = "A quick shit site to test Hugo"
+inverted = false
+keywords = "blog,developer,personal"
+maxSeeAlsoItems = 5.0
+rtl = false
+
+  [[params.social]]
+  icon = "fab fa-github"
+  name = "Github"
+  url = "https://github.com/Darthagnon/"
+  weight = 1.0
+
+  [[params.social]]
+  icon = "fab fa-gitlab"
+  name = "Gitlab"
+  url = "https://gitlab.com/johndoe/"
+  weight = 2.0
+
+  [[params.social]]
+  icon = "fab fa-twitter"
+  name = "Twitter"
+  url = "https://twitter.com/johndoe/"
+  weight = 3.0
+
+  [[params.social]]
+  icon = "fab fa-linkedin"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/johndoe/"
+  weight = 4.0
+
+  [[params.social]]
+  icon = "fab fa-medium"
+  name = "Medium"
+  url = "https://medium.com/@johndoe"
+  weight = 5.0
+
+[taxonomies]
+series = "series"
