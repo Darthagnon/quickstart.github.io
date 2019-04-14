@@ -1,7 +1,6 @@
 ---
 label: Texty blog post
 hide_body: false
-display_field: tags
 fields:
 - type: textarea
   name: main_article
